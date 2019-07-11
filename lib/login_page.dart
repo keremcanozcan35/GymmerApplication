@@ -46,7 +46,7 @@ class LoginPageState extends State<LoginPage> {
             onPressed: (){
               Navigator.of(context).pushNamed(LoginPage.tag);
             },
-          )
+          ),
           const Text.rich(
             TextSpan(
               text: 'hareket2',
@@ -61,7 +61,7 @@ class LoginPageState extends State<LoginPage> {
             onPressed: (){
               Navigator.of(context).pushNamed(LoginPage.tag);
             },
-          )
+          ),
           const Text.rich(
             TextSpan(
               text: 'hareket3',
@@ -76,7 +76,7 @@ class LoginPageState extends State<LoginPage> {
             onPressed: (){
              Navigator.of(context).pushNamed(LoginPage.tag);
             },
-          )
+          ),
           const Text.rich(
             TextSpan(
               text: 'hareket4',

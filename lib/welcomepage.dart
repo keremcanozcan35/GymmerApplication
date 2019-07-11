@@ -31,7 +31,7 @@ class WelcomePageState extends State<WelcomePage> {
               onPressed: (){
                 Navigator.of(context).pushNamed(LoginPage.tag);
               },
-            )
+            ),
             const Text.rich(
               TextSpan(
                 text: 'Let us start the Gymmer APP',
