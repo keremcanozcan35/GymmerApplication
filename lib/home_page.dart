@@ -47,38 +47,39 @@ class HomePageState extends StatelessWidget {
           Expanded(
             child: Column(
 
-              crossAxisAlignment: CrossAxisAlignment.start,
+              crossAxisAlignment: CrossAxisAlignment.center,
+
               children: [
                 Container(
+                  padding: const EdgeInsets.only(top:40),
 
                   //padding: const EdgeInsets.only(left: 150),
                   child: Text(
-                    'dsdfsdfafsd',
+                    'Boyun 1',
                     style: TextStyle(
                       fontWeight: FontWeight.bold,
-                      fontSize: 10.0,
+                      fontSize: 30.0,
                     ),
                   ),
                 ),
                 Text(
-                  '             2 SETS of 10 REPEATS',
+                  '',
                   style: TextStyle(
-                    color: Colors.grey,
+                    color: Colors.white,
                     fontSize: 20.0,
                   ),
                 ),
 
                 Text(
-                  '             2 SETS of 10 REPEATS',
+                  '2 SETS of 10 REPEATS',
                   style: TextStyle(
-                    color: Colors.grey,
+                    color: Colors.white,
                     fontSize: 20.0,
                   ),
                 ),
               ],
             ),
           ),
-          Text('41'),
         ],
       ),
     );
@@ -89,6 +90,7 @@ class HomePageState extends StatelessWidget {
       return Column(
         //mainAxisSize: MainAxisSize.min,
         //mainAxisAlignment: MainAxisAlignment.center,
+
         children: [
           Icon(icon, color: color),
           Container(
@@ -124,13 +126,14 @@ class HomePageState extends StatelessWidget {
 
     Widget textSection = Container(
 
-      padding: const EdgeInsets.all(120.0),
+
+      padding: const EdgeInsets.only(top:100),
+
       color:Colors.orange,
       child: Text(
-        '''
-        Bu hareket boyun hareketlerini güçlendirecek.
+        '''Bu hareket boyun hareketlerini güçlendirecek.Bu hareket boyun hareketlerini güçlendirecek.Bu hareket boyun hareketlerini güçlendirecek.Bu hareket boyun hareketlerini güçlendirecek.Bu hareket boyun hareketlerini güçlendirecek.Bu hareket boyun hareketlerini güçlendirecek.Bu hareket boyun hareketlerini güçlendirecek.Bu hareket boyun hareketlerini güçlendirecek.Bu hareket boyun hareketlerini güçlendirecek.Bu hareket boyun hareketlerini güçlendirecek.
         ''',
-        //softWrap: true,
+        softWrap: true,
         textAlign: TextAlign.center,
       ),
     );
