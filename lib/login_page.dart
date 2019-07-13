@@ -1,6 +1,9 @@
 import 'package:flutter/material.dart';
 import 'home_page.dart';
-import 'login_page0.dart';
+import 'login_page2.dart';
+import 'login_page3.dart';
+import 'login_page4.dart';
+
 
 class LoginPage extends StatefulWidget {
   static String tag = 'login-page';
@@ -25,16 +28,20 @@ class LoginPageState extends State<LoginPage> {
               children: <Widget>[
           IconButton(
           icon:Icon(Icons.directions_run),
-          tooltip: 'hareket 1 ',
+          tooltip: 'BOYUN ',
           color:Colors.black ,
-          iconSize: 75.0,
+          iconSize: 100.0,
           onPressed: (){
-            Navigator.of(context).pushNamed(HomePageState.tag);
+            Navigator.push(context, new MaterialPageRoute(
+              builder: (context)=>
+                  new LoginPage2()
+            ));
+            //Navigator.of(context).pushNamed(LoginPage2.tag);
           },
           ),
           const Text.rich(
             TextSpan(
-                text: 'hareket1',
+                text: 'BOYUN',
                 style: TextStyle(fontSize:25)
             ),
           ),
@@ -42,14 +49,18 @@ class LoginPageState extends State<LoginPage> {
             icon:Icon(Icons.directions_run),
             tooltip: 'HAreket 2',
             color: Colors.black,
-            iconSize: 75.0,
+            iconSize: 100.0,
             onPressed: (){
-              Navigator.of(context).pushNamed(LoginPage.tag);
+              Navigator.push(context, new MaterialPageRoute(
+                  builder: (context)=>
+                  new LoginPage3()
+              ));
+              //Navigator.of(context).pushNamed(LoginPage2.tag);
             },
           ),
           const Text.rich(
             TextSpan(
-              text: 'hareket2',
+              text: 'OMUZ',
               style: TextStyle(fontSize:25)
             ),
           ),
@@ -57,32 +68,21 @@ class LoginPageState extends State<LoginPage> {
             icon:Icon(Icons.directions_run),
             tooltip: 'HAreket 3',
             color: Colors.black,
-            iconSize: 75.0,
+            iconSize: 100.0,
             onPressed: (){
-              Navigator.of(context).pushNamed(LoginPage.tag);
+              Navigator.push(context, new MaterialPageRoute(
+                  builder: (context)=>
+              new LoginPage4()));
+             //Navigator.of(context).pushNamed(LoginPage4.tag);
             },
           ),
           const Text.rich(
             TextSpan(
-              text: 'hareket3',
+              text: 'BEL',
               style: TextStyle(fontSize:25)
             ),
           ),
-          IconButton(
-            icon:Icon(Icons.directions_run),
-            tooltip: 'HAreket 4',
-            color: Colors.black,
-            iconSize: 75.0,
-            onPressed: (){
-             Navigator.of(context).pushNamed(LoginPage.tag);
-            },
-          ),
-          const Text.rich(
-            TextSpan(
-              text: 'hareket4',
-              style: TextStyle(fontSize:25)
-            ),
-          ),
+
             ],
               ),
     ),

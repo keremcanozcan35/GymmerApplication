@@ -25,7 +25,7 @@ class WelcomePageState extends State<WelcomePage> {
           children: <Widget>[
             IconButton(
               icon:Icon(Icons.accessibility),
-              tooltip: 'Let us start the Gymmer! ',
+              tooltip: 'Hadi Gymmer a başlayalım! ',
               color:Colors.black ,
               iconSize: 150.0,
               onPressed: (){
@@ -34,7 +34,7 @@ class WelcomePageState extends State<WelcomePage> {
             ),
             const Text.rich(
               TextSpan(
-                text: 'Let us start the Gymmer APP',
+                text: 'Hadi Gymmer ile başlayalım!',
                 style: TextStyle(fontSize: 25)
              ),
             ),

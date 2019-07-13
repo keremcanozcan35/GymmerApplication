@@ -5,6 +5,7 @@
 import 'package:flutter/material.dart';
 import 'main.dart';
 import 'login_page.dart';
+import 'login_page2.dart';
 
 
 /*class HomePage extends StatefulWidget{
@@ -55,9 +56,9 @@ class HomePageState extends StatelessWidget {
 
                   //padding: const EdgeInsets.only(left: 150),
                   child: Text(
-                    'Boyun 1',
+                    'Boyun Hareketi 1',
                     style: TextStyle(
-                      fontWeight: FontWeight.bold,
+                      fontWeight: FontWeight.w300,
                       fontSize: 30.0,
                     ),
                   ),
@@ -71,7 +72,7 @@ class HomePageState extends StatelessWidget {
                 ),
 
                 Text(
-                  '2 SETS of 10 REPEATS',
+                  '10 Tekrar 2 Set',
                   style: TextStyle(
                     color: Colors.white,
                     fontSize: 20.0,
@@ -127,11 +128,16 @@ class HomePageState extends StatelessWidget {
     Widget textSection = Container(
 
 
-      padding: const EdgeInsets.only(top:100),
+      padding: const EdgeInsets.only(top:75),
 
       color:Colors.orange,
       child: Text(
-        '''Bu hareket boyun hareketlerini güçlendirecek.Bu hareket boyun hareketlerini güçlendirecek.Bu hareket boyun hareketlerini güçlendirecek.Bu hareket boyun hareketlerini güçlendirecek.Bu hareket boyun hareketlerini güçlendirecek.Bu hareket boyun hareketlerini güçlendirecek.Bu hareket boyun hareketlerini güçlendirecek.Bu hareket boyun hareketlerini güçlendirecek.Bu hareket boyun hareketlerini güçlendirecek.Bu hareket boyun hareketlerini güçlendirecek.
+        '''
+        
+        Omuz ağrısı ve omuz sorunları, fizik tedavi ve rehabilitasyon kliniklerine sık başvuru nedenlerinden biridir. Omuzda tendon sıkışması ve ödemi, tendon zedelenmesi veya yırtılması (rotator manşet sorunları), bursit, kireçlenme, omuzda tutulma, donuk omuz (adezif kapsülit) gibi sorunların tedavisinde omuz egzersiz programı önemli yer tutar.
+        
+        Bu hareketi şekilde görüldüğü gibi ellerinizi alnınıza koyup 5 saniye boyunca ittirin ve bunu 2 set boyunca tekrarlayın.
+
         ''',
         softWrap: true,
         textAlign: TextAlign.center,
@@ -144,15 +150,15 @@ class HomePageState extends StatelessWidget {
       home: Scaffold(
         appBar: AppBar(
           backgroundColor: Colors.orange,
-          title: Text('hareket1'),
+          title: Text('Boyun Hareketi 1'),
         ),
         backgroundColor:Colors.orange,
         body: ListView(
           children: [
             Image.asset(
               '/Users/keremcanozcan/Desktop/hareket1.png',
-              width: 241,
-              height: 137,
+              width: 150,
+              height: 270,
               fit: BoxFit.cover,
             ),
             titleSection,
