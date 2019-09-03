@@ -1,6 +1,6 @@
-# deneme
+# GYMMER
 
-A new Flutter project.
+A new Flutter project which shows the basic gym movements.
 
 ## Getting Started
 
